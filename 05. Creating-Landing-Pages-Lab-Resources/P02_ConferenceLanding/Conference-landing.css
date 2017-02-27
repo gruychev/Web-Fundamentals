@@ -1,0 +1,64 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+
+
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)), url('img/header-bg.png') no-repeat center;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 20px 0;
+}
+
+
+
+header > h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    color: #fa692e;
+}
+
