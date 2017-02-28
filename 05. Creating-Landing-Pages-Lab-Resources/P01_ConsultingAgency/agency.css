@@ -77,6 +77,8 @@ section.slider .slider-button:hover{
 
 section.industries{
     text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .industries .icon{
@@ -97,8 +99,20 @@ section.industries{
     border: 1px solid green ;
     margin: 10px;
     display: inline-block;
-
 }
+
+
+.industries article h2{
+     text-align: left;
+ }
+
+.industries article p{
+    text-align: left;
+}
+
+
+
+
 .benefits article{
     width: 300px;
     border: 1px solid green ;
