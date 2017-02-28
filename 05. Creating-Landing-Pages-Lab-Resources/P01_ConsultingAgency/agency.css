@@ -1,6 +1,10 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}
 
 .site-header,.site-footer, main section {
     border: 1px solid blue;
@@ -10,10 +14,11 @@
 .site-header {
     background: url('images/Layer-759_02.jpg');
     background-size: cover;
+    min-height: 400px;
 }
 
 nav.top-navigation{
-   background: rgba(199, 148, 93, 0.9) ;
+    background: rgba(199, 148, 93, 0.9) ;
 }
 
 nav.top-navigation ul{
@@ -24,6 +29,7 @@ nav.top-navigation ul{
 nav.top-navigation ul li{
     display: inline-block;
     padding: 10px;
+
 }
 
 nav.top-navigation ul li a {
@@ -31,9 +37,59 @@ nav.top-navigation ul li a {
     text-decoration: none;
 
 }
+section.slider{
+    text-align: center;
 
+}
+section.slider h1{
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px black ;
+    font-size: 3em;
+    margin: 70px;
+    font-weight: bold;
 
+}
 
+section.slider p{
+    color: white;
+    width: 300px;
+    margin:  0 auto;
+    padding: 34px;
+    background: rgba(150, 150, 150, 0.4);
+    box-shadow: 0px 0px 5px 5px rgba(150, 150, 150, 0.4);
+    text-shadow: 0 0 10px black ;
+}
+
+section.slider .slider-button{
+    display: inline-block;
+    color: white;
+    background: #161616;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section.slider .slider-button:hover{
+    background: darkorange;
+}
+
+section.industries{
+    text-align: center;
+}
+
+.industries .icon{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 2em;
+    background: black;
+    color: white ;
+    border-radius: 50% ;
+    float: left;
+
+}
 
 
 .industries article{
