@@ -1,0 +1,55 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+ul, nav, label{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    padding:  80px 50px;
+}
+nav{
+    width: 70px;
+}
+nav ul{
+    background: #384452;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+}
+nav a{
+    text-decoration: none;
+    color: #8BAEC2;
+    margin-left: 15px;
+}
+a:before{
+    font-family: FontAmesome, Serif;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+li:first-child a::before{
+    content: "\f002"
+}
+
+	li:nth-child(2) a::before{
+	content: "\f02c";
+
+}
+li:nth-child(3) a::before{
+    content: "\f041";
+}
+li:nth-child(4) a::before{
+    content: '\f007'
+}
+
+li:hover{
+    background-color: #3BBC96;
+}
+
+li:hover a{
+     Color: #ffffff;
+}
+
