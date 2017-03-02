@@ -29,6 +29,7 @@ nav li {
     list-style-type: none;
     margin-right: 20px;
 }
+
 nav li:hover {
     cursor: pointer;
     padding-bottom: 24px;

@@ -1,0 +1,25 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+ul, nav, label{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    padding:  80px 50px;
+}
+
+
+nav {
+    height: 70px;
+}
+nav ul {
+    background: #384452;
+}
+
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
