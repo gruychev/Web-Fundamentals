@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+body {
+    background: #927057;
+    font-family: 'Oxygen', sans-serif;
+    color: #ffffff; }
+
+.image-container{
+    text-align: center;
+}
+.image-container>img{
+    border: 5px solid #d5c395;
+    height: 123px;
+    margin-bottom: 40px;
+}
+form{
+    background:#eee2ca ;
+    width: 500px;
+    margin: 0 auto;
+    position:relative ;
+    padding: 40px;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+form::before{
+    position: absolute;
+    content: '';
+    background: url(img/3.png);
+    width: 68px;
+    height: 35px;
+    top: -30px;
+    left: calc(50% - 30px);
+}
+
+input[type='text'],input[type='password']{
+
+}
+
+.form-field{
+    width: 100%;
+    margin: 0 auto;
+}
+
